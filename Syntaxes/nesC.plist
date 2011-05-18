@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>nc</string>
+	</array>
+	<key>name</key>
+	<string>nesC</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>source.c</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(abstract|as|async|atomic|call|command|components|configuration|event|implementation|includes|interface|module|norace|post|provides|signal|task|uses)\b</string>
+			<key>name</key>
+			<string>keyword.control.nesc</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(result_t)\b</string>
+			<key>name</key>
+			<string>storage.type.nesc</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>\b(SUCCESS|FAIL)\b</string>
+			<key>name</key>
+			<string>constant.language.nesc</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.nesc</string>
+	<key>uuid</key>
+	<string>63ED7B3B-F14F-49C5-A1C3-0F24414F3FAD</string>
+</dict>
+</plist>
