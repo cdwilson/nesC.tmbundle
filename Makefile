@@ -2,7 +2,7 @@ all: doc
 
 doc: README.html
 
-README.html: README
+README.html: README.md
 	markdown $< > $@
 
 clean:
