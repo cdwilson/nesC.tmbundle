@@ -6,7 +6,7 @@ Forked from <https://github.com/colagrosso/nesC-Syntax-Highlighting>
 For more info on TextMate bundles check out
 <http://manual.macromates.com/en/bundles>
 
-Install
+TextMate Install
 -------
 
     mkdir -p /Library/Application\ Support/TextMate/Bundles
@@ -14,6 +14,13 @@ Install
     git clone git://github.com/cdwilson/nesC.tmbundle.git
 
 Then, from within TextMate select Bundles -> Bundle Editor -> Reload Bundles
+
+Sublime Text 2 Install
+-------
+
+    cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
+    git clone git://github.com/andresv/nesC.tmbundle.git
+
 
 License
 -------
