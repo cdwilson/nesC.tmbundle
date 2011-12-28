@@ -1,10 +1,10 @@
 nesC.tmbundle
 =============
 
-Forked from <https://github.com/colagrosso/nesC-Syntax-Highlighting>
+This bundle is [nesC](http://nescc.sourceforge.net/) syntax highlighter which is used for developing [TinyOS](http://www.tinyos.net/) applications.
+It works with [TextMate](http://macromates.com/) and [Sublime Text 2](http://www.sublimetext.com/2).
 
-For more info on TextMate bundles check out
-<http://manual.macromates.com/en/bundles>
+It is based on <https://github.com/colagrosso/nesC-Syntax-Highlighting>
 
 TextMate Install
 -------
