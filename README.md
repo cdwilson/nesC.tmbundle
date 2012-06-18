@@ -11,29 +11,31 @@ TextMate Install
 
     mkdir -p /Library/Application\ Support/TextMate/Bundles
     cd /Library/Application\ Support/TextMate/Bundles
-    git clone git://github.com/cdwilson/nesC.tmbundle.git
+    git clone git://github.com/andresv/nesC.tmbundle.git
 
 Then, from within TextMate select Bundles -> Bundle Editor -> Reload Bundles
 
 Sublime Text 2 Install
 -------
 
-Mac:
+Mac
+-----
 
     cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
-    git clone git://github.com/bradjc/nesC.tmbundle.git
+    git clone git://github.com/andresv/nesC.tmbundle.git
 
-Linux:
+Linux
+-----
 
-	cd ~/.config/sublime-text-2/Packages
-	git clone git://github.com/bradjc/nesC.tmbundle.git
+    cd ~/.config/sublime-text-2/Packages
+    git clone git://github.com/andresv/nesC.tmbundle.git
 
 Then you need to change the C file to enable .nc files to use the .c syntax highlighting.
 This cascades the highlighting so all the regular c styling remains.
 
-	cd ~/.config/sublime-text-e/Packages/C++
-	vim C.tmLanguage
-	add "<string>nc</string>" under <filetypes><array>
+    cd ~/.config/sublime-text-2/Packages/C++
+    vim C.tmLanguage
+    add "<string>nc</string>" under <filetypes><array>
 
 License
 -------
