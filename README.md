@@ -9,7 +9,7 @@ It is based on <https://github.com/colagrosso/nesC-Syntax-Highlighting>
 
     mkdir -p /Library/Application\ Support/TextMate/Bundles
     cd /Library/Application\ Support/TextMate/Bundles
-    git clone git://github.com/andresv/nesC.tmbundle.git
+    git clone git://github.com/cdwilson/nesC.tmbundle.git
 
 Then, from within TextMate select Bundles -> Bundle Editor -> Reload Bundles
 
@@ -18,12 +18,12 @@ Then, from within TextMate select Bundles -> Bundle Editor -> Reload Bundles
 ### Mac ###
 
     cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages
-    git clone git://github.com/andresv/nesC.tmbundle.git
+    git clone git://github.com/cdwilson/nesC.tmbundle.git
 
-###Linux ###
+### Linux ###
 
     cd ~/.config/sublime-text-2/Packages
-    git clone git://github.com/andresv/nesC.tmbundle.git
+    git clone git://github.com/cdwilson/nesC.tmbundle.git
 
 ## License ##
 
