@@ -16,13 +16,13 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(abstract|as|async|atomic|call|command|components|configuration|event|implementation|includes|interface|generic|module|norace|post|provides|signal|task|uses|nx_struct)\b</string>
+			<string>\b(abstract|as|async|atomic|call|command|components|configuration|event|implementation|includes|interface|generic|module|new|norace|post|provides|signal|task|uses|nx_struct)\b</string>
 			<key>name</key>
 			<string>keyword.control.nesc</string>
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(result_t|error_t|nx_uint8_t|nx_uint16_t|nx_uint32_t|message_t)\b</string>
+			<string>\b(result_t|error_t|nx_uint8_t|nx_uint16_t|nx_uint32_t|message_t|void)\b</string>
 			<key>name</key>
 			<string>storage.type.nesc</string>
 		</dict>
