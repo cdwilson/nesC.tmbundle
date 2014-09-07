@@ -5,6 +5,7 @@
 	<key>fileTypes</key>
 	<array>
 		<string>nc</string>
+		<string>h</string>
 	</array>
 	<key>firstLineMatch</key>
 	<string>-[*]-( Mode:)? nesC -[*]-</string>
@@ -24,7 +25,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>\b(result_t|error_t|nx_uint8_t|nx_uint16_t|nx_uint32_t|message_t|void)\b</string>
+			<string>\b(result_t|error_t|nx_uint8_t|nx_uint16_t|nx_uint32_t|nx_int8_t|nx_int16_t|nx_int32_t|message_t|void)\b</string>
 			<key>name</key>
 			<string>storage.type.nesc</string>
 		</dict>
