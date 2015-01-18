@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>fileTypes</key>
 	<array>
 		<string>nc</string>
 	</array>
+	<key>firstLineMatch</key>
+	<string>-[*]-( Mode:)? nesC -[*]-</string>
 	<key>name</key>
 	<string>nesC</string>
 	<key>patterns</key>
@@ -36,6 +38,6 @@
 	<key>scopeName</key>
 	<string>source.nesc</string>
 	<key>uuid</key>
-	<string>63ED7B3B-F14F-49C5-A1C3-0F24414F3FAD</string>
+	<string>3EC088FE-8C4B-4065-B895-3B32204A87C3</string>
 </dict>
 </plist>

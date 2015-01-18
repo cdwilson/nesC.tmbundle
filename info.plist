@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>contactEmailRot13</key>
+	<string>pjvyfba@pqjvyfba.hf</string>
+	<key>contactName</key>
+	<string>Christopher Wilson</string>
+	<key>description</key>
+	<string>Support for &lt;a href="http://nescc.sourceforge.net/"&gt;nesC&lt;/a&gt; programming language.</string>
 	<key>name</key>
 	<string>nesC</string>
-	<key>ordering</key>
-	<array>
-		<string>63ED7B3B-F14F-49C5-A1C3-0F24414F3FAD</string>
-	</array>
 	<key>uuid</key>
-	<string>186F340D-6A32-40F3-91A1-7BAE97BC6497</string>
+	<string>ACCE1584-2BD3-4054-A738-2B94856B4B50</string>
 </dict>
 </plist>
