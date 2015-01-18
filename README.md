@@ -25,6 +25,19 @@ Then, from within TextMate select Bundles -> Bundle Editor -> Reload Bundles
     cd ~/.config/sublime-text-2/Packages
     git clone git://github.com/cdwilson/nesC.tmbundle.git
 
+## Sublime Text 3 Install ##
+
+### Mac ###
+
+    cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
+    git clone git://github.com/cdwilson/nesC.tmbundle.git
+
+### Linux ###
+
+    cd ~/.config/sublime-text-3/Packages
+    git clone git://github.com/cdwilson/nesC.tmbundle.git
+
+
 ## License ##
 
 This program is free software: you can redistribute it and/or modify
